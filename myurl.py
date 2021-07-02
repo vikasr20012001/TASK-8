@@ -7,7 +7,7 @@ import json
 import smtplib
 def api(number , message , destination):
     # open a connection to a URL using urllib
-    apiurl = "http://13.127.124.149:8080/registration_no/"
+    apiurl = "http://13.127.45.134:8080/registration_no/"
     vehicle = number
     finalurl = apiurl + vehicle
     webUrl  = urllib.request.urlopen(finalurl)
