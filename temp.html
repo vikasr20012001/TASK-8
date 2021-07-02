@@ -1,0 +1,41 @@
+<div id="filedrag" draggable ="true" ><br>
+    <img class="box-icon" style="width: 45px; height: 45px" src="https://upload.wikimedia.org/wikipedia/commons/6/67/Farm-Fresh_inbox_upload.png" /><br>
+    <label style="text-align-last: inherit" for="fileselect"></label>
+    <input type="file" id="fileselect" name="file"/>
+  </div>
+
+  <style>
+      #filedrag {
+  padding: 1em;
+  margin: 1em 0;
+  color: #1a1a1a;
+  border: 2px dashed #808080;
+  border-radius: 4px;
+  cursor: default;
+  width: 25%;
+  height: 15%;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#filedrag.hover {
+  border-color: #efd126;
+  border-style: solid;
+}
+
+#filedrag.hover .box-icon {
+  max-width: 50px;
+}
+
+#fileselect {
+  margin: auto;
+}
+
+.box-icon {
+  max-width: 50px;
+  display: block;
+  margin: auto;
+}
+
+  </style>
